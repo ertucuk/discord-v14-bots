@@ -3,6 +3,7 @@
 * Ücretli bot veya altyapı için; [ertu#1976](https://discord.com/users/136619876407050240) <br>
 * PM2 Halini satın almak içinde yazabilirsiniz.
 * Projede yardım eden Lethh, Crane, Cartel ve Luhuxa Teşekkürler. <3
+* Altyapının boş hali için [tıklayınız.](https://github.com/kaanxsrd/Lethh-Bots-V14)
 
 # Kurulum
 * İlk olarak bilgisayarınıza [Node JS](https://nodejs.org/en/) indirin.
