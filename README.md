@@ -13,7 +13,7 @@
 * Daha sonra çıkarttığınız dosyanın içine girin ` src/Settings/System.js ` dosyasının içindeki bilgileri doldurun.
 * Sonra klasörün içerisinde bir ` powershell ` ya da ` cmd ` penceresi açın.
 * ` npm install ` yazarak tüm modülleri kurun.
-* Kurulum bittikten sonra ` pm2 start ` yazın ve botu başlatın. Tebrikler!
+* Kurulum bittikten sonra ` pm2 start ` yazın ve botu başlatın. Tebrikler! 
 
 # Komutlar & Görseller
 
