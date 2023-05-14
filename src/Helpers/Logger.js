@@ -3,7 +3,7 @@ const { green, blue, yellow, red } = require("chalk");
 const { tarihsel } = require("../Helpers/Dates");
 const client = global.bot;
 
-const webhookLogger = 'https://discord.com/api/webhooks/1104806634720591892/GRsbbCssT3iChqVPfsipXbbwsOrHIZjpwI_dLUK4GK1_h_Avw-EQpWVlzyrqozKX8R-c' ? new WebhookClient({ url: 'https://discord.com/api/webhooks/1104806634720591892/GRsbbCssT3iChqVPfsipXbbwsOrHIZjpwI_dLUK4GK1_h_Avw-EQpWVlzyrqozKX8R-c' }) : undefined;
+const webhookLogger = 'webhookurlgirin' ? new WebhookClient({ url: 'webhookurlgirin' }) : undefined;
 
 let allmonths = {
     "01": "Ocak",
