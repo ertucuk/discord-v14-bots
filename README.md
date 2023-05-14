@@ -46,3 +46,5 @@
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/88b6c6cf-dc13-4bd2-b471-3455665378ec)
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/36cf4fdc-3dad-466e-ba34-49f86d693e28)
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/1ae331fe-667e-41d3-8a6a-506c450218d8)
+
+pipi 5
