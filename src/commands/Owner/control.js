@@ -46,7 +46,7 @@ module.exports = {
           );
 
           let ertu = new EmbedBuilder()
-          .setFooter({text: ertucuk.SubTitle})
+          .setFooter({text: sunucu.SubTitle})
           .setAuthor({ name: message.author.tag, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
           .setDescription(`
     ${message.member.toString()}, ${message.guild.name} Sunucusunda rolü olmayan üyelerin rol dağıtım menüsü aşağıda verilmiştir.
