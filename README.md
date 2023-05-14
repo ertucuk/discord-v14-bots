@@ -2,7 +2,7 @@
 
 * Ücretli bot veya altyapı için; [ertu#1976](https://discord.com/users/136619876407050240) <br>
 
-* Projede yardım eden cartel, Lethh, Crane, ve Luhuxa Teşekkürler. <3
+* Projede yardım eden cartel, Lethh, Crané, ve Luhuxa Teşekkürler. <3
 * Altyapının boş hali için [tıklayınız.](https://github.com/kaanxsrd/Lethh-Bots-V14)
 * Destek [Sunucusu](https://discord.gg/luppux)
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/d4d5c0c4-4fc0-4f40-bf38-2169f2ced172)
