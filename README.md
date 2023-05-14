@@ -4,6 +4,8 @@
 
 * Projede yardım eden cartel, Lethh, Crane, ve Luhuxa Teşekkürler. <3
 * Altyapının boş hali için [tıklayınız.](https://github.com/kaanxsrd/Lethh-Bots-V14)
+* Destek [Sunucusu](https://discord.gg/luppux)
+
 
 # Kurulum
 * İlk olarak bilgisayarınıza [Node JS](https://nodejs.org/en/) indirin.
@@ -15,7 +17,6 @@
 * ` npm install ` yazarak tüm modülleri kurun.
 * Kurulum bittikten sonra ` pm2 start ` yazın ve botu başlatın. Tebrikler! 
 
-* Destek [Sunucusu](https://discord.gg/luppux)
 
 
 # Komutlar & Görseller
