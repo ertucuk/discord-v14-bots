@@ -15,6 +15,9 @@
 * ` npm install ` yazarak tüm modülleri kurun.
 * Kurulum bittikten sonra ` pm2 start ` yazın ve botu başlatın. Tebrikler! 
 
+* Destek [Sunucusu](https://discord.gg/luppux)
+
+
 # Komutlar & Görseller
 
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/9c89eb22-690b-4453-8413-b0cba979fb92)
