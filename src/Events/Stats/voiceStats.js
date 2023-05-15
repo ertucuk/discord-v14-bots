@@ -45,7 +45,6 @@ client.on("voiceStateUpdate", async (oldState, newState) => {
                 streamStat: calculatedData
             }
         }, { upsert: true });
-        client.channels.cache.get("1082067471688810517").send({ content: `c${moment.duration(calculatedData).asSeconds()}` })
         await joinedAt.deleteOne({ userID: oldState.id, streamDate: streamData.streamDate  });
     }
     
