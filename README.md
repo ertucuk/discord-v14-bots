@@ -1,5 +1,7 @@
 ## V14 Ertu Bots
 
+* 75 Starda PM2 Hali gelecektir. (Guard / Welcome / Supervisor / Secret Room)
+
 * Ücretli bot veya altyapı için; [ertu#1976](https://discord.com/users/136619876407050240) <br>
 
 * Projede yardım eden cartel, Lethh, Crané, ve Luhuxa Teşekkürler. <3
