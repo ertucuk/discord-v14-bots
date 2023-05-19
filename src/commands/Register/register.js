@@ -166,6 +166,8 @@ module.exports = {
     })
 
     collector.on("collect", async (button) => {
+        message.channel.send({ embeds: [ertuMan], components: [disRow] });
+        if (msg) msg.delete();
         if (button.customId === "MAN") {
         await member.roles.add(ertum.ManRoles)
         await member.roles.remove(ertum.UnRegisteredRoles)
@@ -173,10 +175,7 @@ module.exports = {
         await toplams.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $push: { toplams: member.user.id } }, { upsert: true });
         await regstats.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { top: 1, topGuild24: 1, topGuild7: 1, top24: 1, top7: 1, top14: 1, erkek: 1, erkek24: 1, erkek7: 1, erkek14: 1, }, }, { upsert: true });
         await isimler.findOneAndUpdate({ guildID: message.guild.id, userID: member.user.id }, { $push: { names: { name: member.displayName, yetkili: message.author.id, rol: ertum.ManRoles.map(x => `<@&${x}>`).join(" , "), date: Date.now() } } }, { upsert: true });
-        if (msg) msg.delete();
-        message.channel.send({ embeds: [ertuMan], components: [disRow] });
         if (ertum.ChatChannel && client.channels.cache.has(ertum.ChatChannel)) client.channels.cache.get(ertum.ChatChannel).send({ content: `Aramıza **${member}** yakışıklısı geldi. Onu Merhaba ile karşılayın.`}).then((e) => setTimeout(() => { e.delete(); }, 20000));
-        button.deferUpdate();
         const log = new EmbedBuilder().setDescription(`**${member.user.tag}** kullanıcısı **${message.author.tag}** tarafından **ERKEK** olarak kayıt edildi.`)
         .addFields(
             { name: "Kullanıcı", value: `${member}`, inline: true},
@@ -186,10 +185,11 @@ module.exports = {
         .setFooter({ text: 'Üyenin geçmiş isimlerini görüntülemek için .isimler komutunu kullanabilirsiniz.'});
         const channel = client.channels.cache.find(x => x.name === "register_log")
         if (!channel) return;
-       
-       channel.send({ embeds : [log]});
+        channel.send({ embeds : [log]});
     }
     if(button.customId === "WOMAN") {
+        message.channel.send({ embeds: [ertuWoman], components: [disRow] })
+        if (msg) msg.delete();
         await member.roles.add(ertum.GirlRoles)
         await member.roles.remove(ertum.UnRegisteredRoles)
         await coin.findOneAndUpdate({ guildID: member.guild.id, userID: message.author.id }, { $inc: { coin: ertucuk.Moderation.toplamsCoin } }, { upsert: true });
@@ -200,9 +200,7 @@ module.exports = {
         if (kayitgData) {
         await kayitg.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { kayit: 1 } }, { upsert: true });
         if (msg) msg.delete();
-        message.channel.send({ embeds: [ertuWoman], components: [disRow] })
         if (ertum.ChatChannel && client.channels.cache.has(ertum.ChatChannel)) client.channels.cache.get(ertum.ChatChannel).send({ content: `Aramıza **${member}** güzeli geldi. Onu Merhaba ile karşılayın.`}).then((e) => setTimeout(() => { e.delete(); }, 20000));
-        button.deferUpdate();
         const log = new EmbedBuilder().setDescription(`**${member.user.tag}** kullanıcısı **${message.author.tag}** tarafından **KADIN** olarak kayıt edildi.`)
         .addFields(
             { name: "Kullanıcı", value: `${member}`, inline: true},
@@ -212,8 +210,7 @@ module.exports = {
         .setFooter({ text: 'Üyenin geçmiş isimlerini görüntülemek için .isimler komutunu kullanabilirsiniz.'});
         const channel2 = client.channels.cache.find(x => x.name === "register_log")
         if (!channel2) return;
-       
-       channel2.send({ embeds : [log]});
+        channel2.send({ embeds : [log]});
     }
     }});
 
