@@ -6,7 +6,6 @@
 
 * Projede yardım eden **Vante**, cartel, Crané, ve Luhuxa Teşekkürler. <3
 * Altyapının boş hali için [tıklayınız.](https://github.com/vantexsrd/discord-js-bot)
-)
 * Destek [Sunucusu](https://discord.gg/luppux)
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/d4d5c0c4-4fc0-4f40-bf38-2169f2ced172)
 
