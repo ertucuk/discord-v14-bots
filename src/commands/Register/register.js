@@ -166,9 +166,9 @@ module.exports = {
     })
 
     collector.on("collect", async (button) => {
+        if (button.customId === "MAN") {
         message.channel.send({ embeds: [ertuMan], components: [disRow] });
         if (msg) msg.delete();
-        if (button.customId === "MAN") {
         await member.roles.add(ertum.ManRoles)
         await member.roles.remove(ertum.UnRegisteredRoles)
         await coin.findOneAndUpdate({ guildID: member.guild.id, userID: message.author.id }, { $inc: { coin: ertucuk.Moderation.toplamsCoin } }, { upsert: true });
