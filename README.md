@@ -22,7 +22,6 @@
 * Kurulum bittikten sonra ` pm2 start ` yazın ve botu başlatın. Tebrikler! 
 
 
-
 # Komutlar & Görseller
 
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/9c89eb22-690b-4453-8413-b0cba979fb92)
