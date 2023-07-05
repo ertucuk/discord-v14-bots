@@ -1,5 +1,8 @@
 ## V14 Ertu Bots
 
+# Botta hata vardır yakında düzelicek.
+
+
 * 75 Starda PM2 Hali gelecektir. (Guard / Welcome / Supervisor / Secret Room)
 
 * Ücretli bot veya altyapı için; [ertu#1976](https://discord.com/users/136619876407050240) <br>
