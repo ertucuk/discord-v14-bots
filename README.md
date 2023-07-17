@@ -24,9 +24,12 @@
 * ` npm install ` yazarak tüm modülleri kurun.
 * Kurulum bittikten sonra ` pm2 start ` yazın ve botu başlatın. Tebrikler! 
 
+# 75 Starda Gelecek Botun Görselleri
+
+Yakında üşenmezsem yaringelir
 
 
-# Komutlar & Görseller
+# Githubtaki Botun Görselleri
 
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/9c89eb22-690b-4453-8413-b0cba979fb92)
 ![image](https://github.com/ertucuk/Ertu-Bots-V14/assets/68440024/c90854d7-3933-4c8d-a41e-2b85fb09a01c)
