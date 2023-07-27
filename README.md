@@ -7,7 +7,7 @@
 * Pm2 Halini satın almak için ertu yazip dmden fiyat konusunu ucuz fiyata anlaşabiliriz.
 * Ücretli bot veya altyapı için; [ertu](https://discord.com/users/136619876407050240) <br>
 
-* Projede yardım eden **Crané**, **Vante**, cartel, ve Luhuxa Teşekkürler. <3
+* Projede yardım eden **Crané**, **Vante**, cartelfx, ve Luhuxa Teşekkürler. <3
 * Altyapının boş hali için [tıklayınız.](https://github.com/vante-xyz/discord-js-bot)
 * Destek [Sunucusu](https://discord.gg/luppux)
 
