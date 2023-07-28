@@ -4,7 +4,7 @@ Ertu - Crane gelişmiş Pm2 V14 Botlarıdır
 <a href="#napirs">@napi-rs/canvas Hatası Alıyorsan Buraya Tıkla!</a>
 <br> </br>
 
-Emeği geçenler: **ERTU - CRANE** - **vante** - beş - lulu - approval - luhux - relivent - cartel'e tesekkürler <3
+Emeği geçenler: **ERTU - CRANE** - **vante** - piku - beş - lulu - approval - luhux - relivent - cartel'e tesekkürler <3
 
 Not: Buradan Arzen diye bir çocuğa iki çift lafım var. Benim bu botun en eski hali, sana nasıl geçtiğini bilmiyorum. Herkese Ertu ile yaptığım bot diye tanıtıyormuşsun. Çocuk, denk düşmeyelim. Seninle uğraşacak vaktim yok. Benim botlarımı kullanıp kendi altyapım diye tanıtan boş bir adamsın. Botun son ve hatasız hali burada. Kimseye irtibat etmeyiniz.
 
