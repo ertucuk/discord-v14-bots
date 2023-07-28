@@ -1,0 +1,39 @@
+{
+    "sunucuID" : "1105123827618418699",
+    "sunucuIsmi": "Mysterius ツ",
+    "tag": "✦",
+    "tagsiz": "✧",
+    "yasakTaglar": ["yasaklıtaggirinbunu"],
+    "link": "https://discord.gg/monarch",
+    "minYaş": "13",
+    "taglıalım": false,
+
+    "BanLimit": "10",
+
+    "CezaPuan":{
+        "Mute": "15",
+        "Cezalı":"30",
+        "Vmute":"15",
+        "Ban": "30",
+        "Other":"10"
+    },
+
+    "MysChatGuard" : {
+        "kufurEngel": false,
+        "reklamEngel": true,
+        "konsolBilgi": true,
+        "uyariMesaji": true,
+        "izinliKanallar": [""],
+        "izinliKisilerReklam":[""],
+        "izinliKisilerKüfür":[""],
+        "kufurUyariMesaji": "Birdaha küfür etmemelisin aksi taktirde ceza alacaksın.", 
+        "reklamUyariMesaji": "Birdaha reklam yapmamalısın aksi taktirde ceza alacaksın."
+    },
+    "embed": {
+        "iconURL": "https://cdn.discordapp.com/avatars/1121106409858281544/7302863bdc2741c0de3ef16e6ae122eb.webp?size=256",
+        "başlık": "MYS-SYSTEM",
+        "altbaşlık": "Bot Developed By Mysterious",
+        "renk": "#76d697"
+    }
+
+}
