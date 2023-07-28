@@ -1,17 +1,21 @@
-## V14 Ertu Bots
-* Projede yardım eden **Crané**, **Vante**, cartelfx, ve Luhuxa Teşekkürler. <3
-* Destek [Sunucusu](https://discord.gg/luppux)
+# V14 Ertu - Crane Bots (Piyasanin En İyisi)
+Ertu - Crane gelişmiş Pm2 V14 Botlarıdır 
+<br> </br>
+<a href="#napirs">@napi-rs/canvas Hatası Alıyorsan Buraya Tıkla!</a>
+<br> </br>
 
+Emeği geçenler: **ERTU - CRANE** - **vante** - beş - lulu - approval - luhux - relivent - cartel'e tesekkürler <3
 
-![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/dd0d5e89-b014-4fdf-913f-8c6d2f275872)
+Not: Buradan Arzen diye bir çocuğa iki çift lafım var. Benim bu botun en eski hali, sana nasıl geçtiğini bilmiyorum. Herkese Ertu ile yaptığım bot diye tanıtıyormuşsun. Çocuk, denk düşmeyelim. Seninle uğraşacak vaktim yok. Benim botlarımı kullanıp kendi altyapım diye tanıtan boş bir adamsın. Botun son ve hatasız hali burada. Kimseye irtibat etmeyiniz.
 
+Projenin ücretli satılması veya başkası tarafından başka bir ad ile dağıtılması kesinlikle yasaktır. Proje lisanslı bir projedir, bu tarz işlemlerde bulunanlar olursa lisans aracılığı ile gerekli yasal yollara başvurulacaktır.
 
 ### Sahip Komutları
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/76b9de4a-b38a-496e-a2fd-443fff2fec9c)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/52e97829-92ba-49d7-8637-a23b1719affb)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/0936c1e1-0d45-45db-8873-f1a9988d269a)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/31f41c70-ec25-486f-b65d-2c0a58716d4b)
-![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/e6b78a7b-b870-42d2-bc21-32fac6122692)
+![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/e6b78a7b-b870-42d2-bc21-32fac6122692) (Select menülü knk ya cok zor)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/8fc7f247-c776-4bdf-9928-8ae99947f8dd)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/e2ca4d29-3d13-440c-8924-02cadde4a870)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/abaf7b95-2e51-4e9c-88d9-6320e366487d)
@@ -78,3 +82,12 @@
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/3e2d228e-a1b3-4b33-9ff0-24833e89ea9f)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/66824041-46f2-4013-b6ed-106fdd71a292)
 
+<br> </br>
+<h1>⚠️ @napi-rs/canvas Hatası</h1>
+<h2 id="napirs">Hatanın msvc'den Kaynaklı Alttaki Linkten Gerekli Driver'ları Kurabilirsiniz.</h2>
+<img src="https://cdn.discordapp.com/attachments/950167988127006821/1111440762438172773/2023-05-26_02-45-14.png">
+Driver'ı Yüklemek İçin; https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+Driver Yüklendikten Sonra Makinenizi/Bilgisayarınızı Yeniden Başlatınız.
+Hata Düzelicektir.
+<br> </br>
+<br> </br>
