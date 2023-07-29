@@ -20,7 +20,7 @@ client.loadClient({
 
 const { GiveawaysManager } = require('discord-giveaways');
 const manager = new GiveawaysManager(client, {
-  storage: './src/Settings/giveaways.json',
+  storage: './../../../Global/Settings/giveaways.json',
   default: {
     botsCanWin: false,
     embedColor: '#00ff00',
