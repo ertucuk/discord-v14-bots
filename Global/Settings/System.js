@@ -6,7 +6,7 @@ module.exports = {
     BotVoiceChannel: "",
     MongoURL: "",
     WebhookURL: "",
-    BackGround: "",
+    BackGround: "https://cdn.discordapp.com/attachments/1121409922328956928/1121778487355772998/576388f3bdfea3f99ef4282c518f316b.png", //bunu silmeyin
     BotsOwners: ["587564522009788426","136619876407050240","797096076330795018"],
 
     Presence: {
