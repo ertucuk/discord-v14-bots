@@ -68,13 +68,13 @@ if (!message.member.permissions.has(PermissionsBitField.Flags.Administrator) && 
         .setCustomId("mute")
         .setLabel("Chat Mute")
         .setStyle(ButtonStyle.Secondary)
-        .setEmoji("997820341718089739");
+        .setEmoji("1136310032061976596");
     
         let vmute = new ButtonBuilder()
         .setCustomId("vmute")
         .setLabel("Voice Mute")
         .setStyle(ButtonStyle.Secondary)
-        .setEmoji("997876085624668231");
+        .setEmoji("1136310152493011020");
     
         if (!ertum.MutedRole.some(x => member.roles.cache.has(x))) {
             mute.setStyle(ButtonStyle.Secondary).setDisabled(true);
