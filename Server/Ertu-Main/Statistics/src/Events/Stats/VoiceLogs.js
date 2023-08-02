@@ -28,7 +28,7 @@ if (!channel2) return;
 let logs = await oldState.guild.fetchAuditLogs({ limit: 1, type: AuditLogEvent.MemberUpdate });
 let entry = logs.entries.first();
 if (!oldState.serverMute && newState.serverMute) return channel2.send({ embeds: [new EmbedBuilder().setColor("Random").setAuthor({ name: client.guilds.cache.get(ertucuk.ServerID).name, iconURL: client.guilds.cache.get(ertucuk.ServerID).iconURL({dynamic:true})}).setFooter({ text: `${moment(Date.now()).format("LLL")}`}).setDescription(`
-${newState.member.tag} Adlı Kişiye ${entry.executor.user.tag} tarafından Sağ-tık susturma işlemi yapıldı.`)
+${newState.member.displayName} Adlı Kişiye ${entry.executor.user.displayName} tarafından Sağ-tık susturma işlemi yapıldı.`)
 .addFields(
 { name: "Cezalandırılan", value: `${newState.member}`, inline: true },
 { name: "Cezalanan", value: `${entry.executor}`, inline: true},
