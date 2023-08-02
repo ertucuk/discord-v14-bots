@@ -13,7 +13,6 @@ const cezapuan = require("../../../../../../Global/Schemas/cezapuan")
 const ceza = require("../../../../../../Global/Schemas/ceza")
 const levels = require("../../../../../../Global/Schemas/level");
 const { profileImage } = require('discord-arts');
-const { DiscordBanners } = require('discord-banners');
 const { YamlDatabase } = require("five.db");
 const { nokta, green, star } = require('../../../../../../Global/Settings/Emojis.json');
 const db = new YamlDatabase();
@@ -99,13 +98,10 @@ const voiceData = await voiceUser.findOne({ guildID: ertucuk.ServerID, userID: i
 const streamData = await streamerUser.findOne({ guildID: ertucuk.ServerID, userID: interaction.user.id });
 const cameraData = await cameraUser.findOne({ guildID: ertucuk.ServerID, userID: interaction.user.id });
 
-  const messageWeekly = messageData ? messageData.weeklyStat : 0;
-  const voiceWeekly = moment.duration(voiceData ? voiceData.weeklyStat : 0).format("H [saat], m [dakika]");
-  const messageDaily = messageData ? messageData.dailyStat : 0;
-  const voiceDaily = moment.duration(voiceData ? voiceData.dailyStat : 0).format("H [saat], m [dakika]");
-
-  const discordBanners = new DiscordBanners(client);
-  const banner = await discordBanners.getBanner(member.id, { size: 2048, format: "png", dynamic: true })
+const messageWeekly = messageData ? messageData.weeklyStat : 0;
+const voiceWeekly = moment.duration(voiceData ? voiceData.weeklyStat : 0).format("H [saat], m [dakika]");
+const messageDaily = messageData ? messageData.dailyStat : 0;
+const voiceDaily = moment.duration(voiceData ? voiceData.dailyStat : 0).format("H [saat], m [dakika]");
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
