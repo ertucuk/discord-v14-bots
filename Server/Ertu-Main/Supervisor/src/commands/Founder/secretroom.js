@@ -108,7 +108,7 @@ module.exports = {
         }
 
       }
-      if((memberData && memberData.channelID) && (newState.member.voice.channel.id === memberData.channelID)){
+      if((memberData && memberData.channelID) && (newState.member.voice.channelId === memberData.channelID)){
         await SpecialRoom.findOneAndUpdate({guildID:newState.guild.id,userID:newState.member.id},{$set:{lastEntry:Date.now()}},{upsert:true})
       }
       })
@@ -331,7 +331,3 @@ const emoji = await guild.emojis.cache.find(x=> x.name === name);
 if(emoji) return emoji.id
 else console.log(name+ "İsimli emoji Bulunamadı!")
   }
-
-
-
-
