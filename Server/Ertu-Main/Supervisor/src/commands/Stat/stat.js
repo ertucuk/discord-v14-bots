@@ -45,7 +45,7 @@ if (!message.member.permissions.has(PermissionsBitField.Flags.Administrator) && 
     const target = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
     const member = message.guild.members.cache.get(target.id);
 
-    let ertu = await message.reply({ content: `${loading} | **${member.displayName}** kullanıcısının verileri yükleniyor. Lütfen bekleyin!` })
+    let ertu = await message.reply({ content: `${loading} | **${member.user.username}** kullanıcısının verileri yükleniyor. Lütfen bekleyin!` })
 
     const inviterData = await inviterSchema.findOne({ guildID: message.guild.id, userID: member.user.id });
     const total = inviterData ? inviterData.total : 0;
