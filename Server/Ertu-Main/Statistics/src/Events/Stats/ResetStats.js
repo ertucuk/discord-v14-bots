@@ -4,6 +4,8 @@ const messageUser = require("../../../../../../Global/Schemas/messageUser");
 const voiceUser = require("../../../../../../Global/Schemas/voiceUser");
 const messageGuild = require("../../../../../../Global/Schemas/messageGuild");
 const voiceGuild = require("../../../../../../Global/Schemas/voiceGuild");
+const streamerUser = require("../../../../../../Global/Schemas/streamerUser");
+const cameraUser = require("../../../../../../Global/Schemas/cameraUser");
 
 const gorev = require("../../../../../../Global/Schemas/invite");
 const kayitg = require("../../../../../../Global/Schemas/kayitgorev");
@@ -34,6 +36,8 @@ client.on("ready", async () => {
           await voiceGuild.findOneAndUpdate({ guildID: conf.ServerID }, { $set: { dailyStat: 0 } });
           await messageUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { dailyStat: 0 } }, { upsert: true });
           await voiceUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { dailyStat: 0 } }, { upsert: true });
+          await streamerUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { dailyStat: 0 } }, { upsert: true });
+          await cameraUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { dailyStat: 0 } }, { upsert: true });
               });
      });
       }, null, true, "Europe/Istanbul");
@@ -46,6 +50,8 @@ client.on("ready", async () => {
           await voiceGuild.findOneAndUpdate({ guildID: conf.ServerID }, { $set: { weeklyStat: 0 } });
           await messageUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { weeklyStat: 0 } }, { upsert: true });
           await voiceUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { weeklyStat: 0 } }, { upsert: true });
+          await streamerUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { weeklyStat: 0 } }, { upsert: true });
+          await cameraUser.findOneAndUpdate({ guildID: conf.ServerID, userID: member.user.id }, { $set: { weeklyStat: 0 } }, { upsert: true });
             });
      });
     }, null, true, "Europe/Istanbul");
