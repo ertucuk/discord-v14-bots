@@ -142,8 +142,8 @@ emojis: [
 
   roles: [
     { name: "▬▬▬▬▬▬▬▬▬▬▬", color: "000000"},
-    { name: "Çekiliş", icon: "🎉", color: "#f5f5f5" },
-    { name: "Etkinlik", icon: "📣", color: "#f5f5f5" },
+    { name: "Çekiliş", color: "#f5f5f5" },
+    { name: "Etkinlik", color: "#f5f5f5" },
     { name: "▬▬▬▬▬▬▬▬▬▬▬", color: "000000"},
     { name: "Kirmizi", color: "#ff0000" },
     { name: "Siyah", color: "#090909" },
@@ -167,8 +167,8 @@ emojis: [
     { name: "Kova", color: "#ffffff" },
     { name: "Balık", color: "#ffffff" },
     { name: "▬▬▬▬▬▬▬▬▬▬▬", color: "000000"},
-    { name: "Couple", icon: "💍", color: "#ff0000" },
-    { name: "Alone", icon: "💔", color: "#2e5a6e" },
+    { name: "Couple", color: "#ff0000" },
+    { name: "Alone", color: "#2e5a6e" },
     { name: "▬▬▬▬▬▬▬▬▬▬▬", color: "000000"},
     { name: "CSGO", color: "ffa7a7" },
     { name: "LoL", color: "ffa7a7" },
