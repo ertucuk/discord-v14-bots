@@ -1,13 +1,13 @@
 module.exports = {
-    Server: "",
-    ServerID: "",
-    ServerURL: "",
-    SubTitle: "",
-    BotVoiceChannel: "",
-    MongoURL: "",
-    WebhookURL: "",
-    BackGround: "https://cdn.discordapp.com/attachments/1121409922328956928/1121778487355772998/576388f3bdfea3f99ef4282c518f316b.png",
-    BotsOwners: ["587564522009788426","136619876407050240","797096076330795018"],
+    Server: "", //sunucu ismi
+    ServerID: "", // sunucu id
+    ServerURL: "", // sunucu özel url
+    SubTitle: "", // embed alt başlık
+    BotVoiceChannel: "", // botlarin gireceği ses
+    MongoURL: "", // mongo url
+    WebhookURL: "", // belirttiğiniz webhook kanala hatalari gönderir 
+    BackGround: "https://cdn.discordapp.com/attachments/1121409922328956928/1121778487355772998/576388f3bdfea3f99ef4282c518f316b.png", // burayi silme
+    BotsOwners: ["587564522009788426","136619876407050240","797096076330795018"], // bot ownerlar
 
     Presence: {
         Status: "online", // durumu idle -dnd - online 
@@ -16,9 +16,9 @@ module.exports = {
     },
 
     Mainframe: {
-    Moderation: "",
-    Statistics:  "",
-    Registery: "",
+    Moderation: "", // süpervisor token
+    Statistics:  "", // stat botu token
+    Registery: "", // register bot token
 
     EmojiNumbers: false,
     GlobalInteractions: true,
@@ -56,21 +56,20 @@ module.exports = {
     },
 
     Security: {
-        Guard_I: "",
-        Guard_II: "",
-        Guard_III: "",
+        Guard_I: "", //guard 1 token
+        Guard_II: "", // guard 2 token
+        Guard_III: "", //guard 3 token
         SelfBotToken: "31", // self token giriniz girmicem diosaniz sayi kalsin
         Prefix: ".",
 
         Database: [
-            "",
-            ""
+            "", // dağıtıci bot token 1 tane giriniz
         ],
     },
 
     Welcome: {
         Tokens: [ 
-            "",
+            "", // welcome bot tokenleri
             "",
             "",
             ""
@@ -85,6 +84,6 @@ module.exports = {
       
           ],
 
-          Staff: "",
+          Staff: "", // kayit yetkilisi id
     }
 } 
