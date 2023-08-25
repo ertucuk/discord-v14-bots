@@ -278,23 +278,23 @@ const { ApplicationCommandOptionType,EmbedBuilder, ActionRowBuilder, ButtonBuild
      const eniyidavet3 = davet3.splice(0, 1).map((x, index) => `<@${x.userID}>`); 
   
   
-     const row = new ActionRowBuilder() 
-       .addComponents( 
-         new StringSelectMenuBuilder() 
-           .setCustomId('ertucum') 
-           .setPlaceholder('Menüden sıralama kategorisi seçimi yapın!') 
-           .addOptions([ 
-             { label: 'Sunucunun En İyileri', description: 'Sunucudaki en iyileri görmek için tıklayınız.', value: 'eniyi', emoji: '🏆' }, 
-             { label: 'Mesaj Sıralaması', description: 'Sunucudaki mesaj sıralamasını görmek için tıklayınız.', value: 'mesaj', emoji: '1116077475928215663' }, 
-             { label: 'Ses Sıralaması',   description: 'Sunucudaki ses sıralamasını görmek için tıklayınız.', value: 'ses', emoji: '1114844292935077960' }, 
-             { label: 'Yayın Sıralaması', description: 'Sunucudaki yayın sıralamasını görmek için tıklayınız.', value: 'yayin', emoji: '1114844304540700683'}, 
-             { label: 'Kamera Sıralaması', description:'Sunucudaki kamera sıralamasını görmek için tıklayınız.', value: 'kamera', emoji: '1114844300694523916'}, 
-             { label: 'Level Sıralaması', description: 'Sunucudaki level sıralamasını görmek için tıklayınız.', value: 'level', emoji: '1088124338961661952'}, 
-             { label: 'Kayıt Sıralaması', description: 'Sunucudaki kayıt sıralamasını görmek için tıklayınız.', value: 'register', emoji: '1089511613352120320' }, 
-             { label: 'Davet Sıralaması', description: 'Sunucudaki davet sıralamasını görmek için tıklayınız.', value: 'davet', emoji: '1141139011541422191'}, 
-           ]), 
-       ); 
-  
+const row = new ActionRowBuilder()
+      .addComponents(
+        new StringSelectMenuBuilder()
+          .setCustomId('ertucum')
+          .setPlaceholder('Menüden sıralama kategorisi seçimi yapın!')
+          .addOptions([
+            { label: 'Sunucunun En İyileri', description: 'Sunucudaki en iyileri görmek için tıklayınız.', value: 'eniyi', emoji: '🏆' },
+            { label: 'Mesaj Sıralaması', description: 'Sunucudaki mesaj sıralamasını görmek için tıklayınız.', value: 'mesaj', emoji: '1089491370982522950' },
+            { label: 'Ses Sıralaması',   description: 'Sunucudaki ses sıralamasını görmek için tıklayınız.', value: 'ses', emoji: '1089491399067566141' },
+            { label: 'Yayın Sıralaması', description: 'Sunucudaki yayın sıralamasını görmek için tıklayınız.', value: 'yayin', emoji: '1144687570647793754'},
+            { label: 'Kamera Sıralaması', description:'Sunucudaki kamera sıralamasını görmek için tıklayınız.', value: 'kamera', emoji: '1144687959417819216'},
+            { label: 'Level Sıralaması', description: 'Sunucudaki level sıralamasını görmek için tıklayınız.', value: 'level', emoji: '1144688260174589994'},
+            { label: 'Kayıt Sıralaması', description: 'Sunucudaki kayıt sıralamasını görmek için tıklayınız.', value: 'register', emoji: '1089511613352120320' },
+            { label: 'Davet Sıralaması', description: 'Sunucudaki davet sıralamasını görmek için tıklayınız.', value: 'davet', emoji: '1089505823346143303'},
+          ]),
+      );
+ 
        let gunluk; 
        let haftalık; 
        let genel; 
