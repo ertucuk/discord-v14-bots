@@ -112,21 +112,20 @@ const { ApplicationCommandOptionType, ActionRowBuilder, StringSelectMenuBuilder,
   
      if (member.user.bot) return; 
   
-  
-     const row = new ActionRowBuilder() 
-       .addComponents( 
-         new StringSelectMenuBuilder() 
-           .setCustomId('ertucum') 
-           .setPlaceholder(`${member.user.tag.toString()} kullanıcısının detaylarını görüntüle!`) 
-           .addOptions([ 
-             { label: 'Ses İstatistik Detay', description: 'Detaylı Ses istatistiğininin bilgilerini görüntülemektedir.', value: 'ses', emoji: '1089491399067566141' }, 
-             { label: 'Mesaj İstatistik Detay', description: 'Detaylı Mesaj istatistiğinin bilgilerini görüntülemektedir.', value: 'mesaj', emoji: '1089491370982522950' }, 
-             { label: 'Davet Detay', description: 'Detaylı Davet istatistiğini görüntülemektedir.', value: 'davet', emoji: '1089505823346143303' }, 
-             { label: 'Yayın Detay', description: 'Detaylı Yayın istatistiğini görüntülemektedir.', value: 'yayin', emoji: '1135761093701144577' }, 
-             { label: 'Kamera Detay', description: 'Detaylı Kamera istatistiğini görüntülemektedir.', value: 'kamera', emoji: '1135761187871666176' }, 
-             { label: `Menüyü Kapat`, value: 'iptal', emoji: '1102692516626710708' }, 
-           ]), 
-       ); 
+    const row = new ActionRowBuilder() 
+    .addComponents( 
+      new StringSelectMenuBuilder() 
+        .setCustomId('ertucum') 
+        .setPlaceholder(`${member.user.tag.toString()} kullanıcısının detaylarını görüntüle!`) 
+        .addOptions([ 
+          { label: 'Ses İstatistik Detay', description: 'Detaylı Ses istatistiğininin bilgilerini görüntülemektedir.', value: 'ses', emoji: '1089491399067566141' }, 
+          { label: 'Mesaj İstatistik Detay', description: 'Detaylı Mesaj istatistiğinin bilgilerini görüntülemektedir.', value: 'mesaj', emoji: '1089491370982522950' }, 
+          { label: 'Davet Detay', description: 'Detaylı Davet istatistiğini görüntülemektedir.', value: 'davet', emoji: '1089505823346143303' }, 
+          { label: 'Yayın Detay', description: 'Detaylı Yayın istatistiğini görüntülemektedir.', value: 'yayin', emoji: '1144687570647793754' }, 
+          { label: 'Kamera Detay', description: 'Detaylı Kamera istatistiğini görüntülemektedir.', value: 'kamera', emoji: '1144687959417819216' }, 
+          { label: `Menüyü Kapat`, value: 'iptal', emoji: '1102692516626710708' }, 
+        ]), 
+    ); 
   
      let canvas = Canvas.createCanvas(1080, 400), 
        ctx = canvas.getContext("2d"); 
