@@ -1,5 +1,8 @@
 # V14 Ertu - Crane Bots (Piyasanin En İyisi)
 Ertu - Crane gelişmiş Pm2 V14 Botlarıdır
+
+Botun gelişmişini almak için -> ertu 250 tlye birakirim canvaslar deisik ceza sistemi kaliteli falan dahada ozellik var
+
 <a href="#napirs">@napi-rs/canvas Hatası Alıyorsan Buraya Tıkla!</a>
 
 Emeği geçen **CRANE, vante, piku, beş, lulu, approval, luhux, relivent ve cartel**'e tesekkürler <3
