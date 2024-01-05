@@ -22,7 +22,7 @@ Copyright © 2023 [Ertu](https://github.com/ertucuk).
 -   Discord: https://discord.gg/luppux
 -   Instagram: https://www.instagram.com/ertucum/
 
-# 📷 Görüntüler
+# 📷 Bazı Görüntüler
 
 ### Komutlar
 <details>
