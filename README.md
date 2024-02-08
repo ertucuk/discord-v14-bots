@@ -9,7 +9,7 @@
 </p>
 
 # ✨ Proje Hakkında Bilgi
-Merhaba, Eğer bu projeye 125 star gelirse, büyük olasılıkla botu paylaşacağım. Bot geliştirme süreci beni sıktı ve devam etmek istemiyorum Veya Eğer botu edinmek istiyorsanız (satın almak), detayları konuşmak için Discord üzerinden benimle iletişime geçebilirsiniz. Discord kullanıcı adım: [@ertu](https://discord.com/users/136619876407050240)
+Merhaba, Eğer bu projeye 95 star gelirse, büyük olasılıkla botu paylaşacağım. Bot geliştirme süreci beni sıktı ve devam etmek istemiyorum Veya Eğer botu edinmek istiyorsanız (satın almak), detayları konuşmak için Discord üzerinden benimle iletişime geçebilirsiniz. Discord kullanıcı adım: [@ertu](https://discord.com/users/136619876407050240)
 
 # 📄 Lisans
 
