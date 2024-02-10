@@ -28,7 +28,7 @@ Copyright © 2024 [Ertu](https://github.com/ertucuk).
 
 # 📷 Bazı Görüntüler
 
-### Komutlar
+### Githubdaki Botun Bazı Görselleri
 <details>
  <img width="450" alt="image" src="https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/baa65779-ccc3-4145-80b0-100a6801ae8a">
  <img width="450" alt="image" src="https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/3df651c7-dc5f-4ded-a2bd-ee84f0f1c738">
@@ -47,4 +47,9 @@ Copyright © 2024 [Ertu](https://github.com/ertucuk).
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/a911ebee-607c-41f4-96c0-9f3ceaf1d28e)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/15ae1ce3-aa04-49fe-bcd7-86f9267ea092)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/7dc38a98-61a9-46d2-8f18-13430b2d4058)
+</details>
+
+### Yeni Botun Bazı Görselleri
+<details>
+Eklenicek
 </details>
