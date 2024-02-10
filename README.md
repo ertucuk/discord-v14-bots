@@ -13,7 +13,6 @@ Merhaba bu projeye 125 star istemiştim fakat artık pek umrumda olmadığı iç
 
 # ⚠️ Bot hakkında
 Bu bot eski botumdur! (kullandığınız altyapıdanda daha iyi knk (clydev eziklerinden bahsediyorum 😁)) eğer yenisini satın almak istiyorsanız aşağıda yeni botumun görsellerini paylaşacağım, Discordum: [@ertu](https://discord.com/users/136619876407050240)
-Ücretli sunucunuza bot yaparım bunuda söleyeyim.
 
 # 📄 Lisans
 
