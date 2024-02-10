@@ -12,7 +12,7 @@
 Merhaba bu projeye 125 star istemiştim fakat artık pek umrumda olmadığı için paylaşmak istedim. Şimdiden iyi kullanımlar iyi çalmalar hakkım helal olsun. Hatalar olabilir pek takmıyorum luppux supporta gelin ordan destek talebi açın yoksa dmden gelip yardım isteyenlere engeli çakarım uğraşamam.
 
 # ⚠️ Bot hakkında
-Bu bot eski botumdur! (kullandığınız altyapıdanda daha iyi knk (clydev eziklerinden bahsediyorum 😁)) eğer yenisini satın almak istiyorsanız aşağıda yeni botumun görsellerini paylaşacağım, Discordum: [@ertu](https://discord.com/users/136619876407050240)
+Bu bot eski botumdur! eğer yenisini satın almak istiyorsanız aşağıda yeni botumun görsellerini paylaşacağım, Discordum: [@ertu](https://discord.com/users/136619876407050240)
 
 # 📄 Lisans
 
