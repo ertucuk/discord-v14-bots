@@ -9,11 +9,15 @@
 </p>
 
 # ✨ Proje Hakkında Bilgi
-Merhaba, Eğer bu projeye 95 star gelirse, büyük olasılıkla botu paylaşacağım. Bot geliştirme süreci beni sıktı ve devam etmek istemiyorum Veya Eğer botu edinmek istiyorsanız (satın almak), detayları konuşmak için Discord üzerinden benimle iletişime geçebilirsiniz. Discord kullanıcı adım: [@ertu](https://discord.com/users/136619876407050240)
+Merhaba bu projeye 125 star istemiştim fakat artık pek umrumda olmadığı için paylaşmak istedim. Şimdiden iyi kullanımlar iyi çalmalar hakkım helal olsun. Hatalar olabilir pek takmıyorum luppux supporta gelin ordan destek talebi açın yoksa dmden gelip yardım isteyenlere engeli çakarım uğraşamam.
+
+# ⚠️ Bot hakkında
+Bu bot eski botumdur! (kullandığınız altyapıdanda daha iyi knk (clydev eziklerinden bahsediyorum 😁)) eğer yenisini satın almak istiyorsanız aşağıda yeni botumun görsellerini paylaşacağım, Discordum: [@ertu](https://discord.com/users/136619876407050240)
+Ücretli sunucunuza bot yaparım bunuda söleyeyim.
 
 # 📄 Lisans
 
-Copyright © 2023 [Ertu](https://github.com/ertucuk).
+Copyright © 2024 [Ertu](https://github.com/ertucuk).
 
 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) Lisansı altında dağıtılmaktadır. Daha fazla bilgi için 'LİSANS'a bakın.
 
@@ -31,7 +35,7 @@ Copyright © 2023 [Ertu](https://github.com/ertucuk).
  <img width="450" alt="image" src="https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/8797d6e2-669e-4bff-baf3-ee623f3c3281">
  <img width="450" alt="image" src="https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/72c4a725-0113-4e04-9dea-c0af923f4e26">
  <img width="450" alt="image" src="https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/9eeb23be-30cc-4499-a2f9-6d1d183402ec">
-
+ 
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/78f62b3f-75a7-4099-ade4-d0d70b83ce19)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/9b4ef8fd-7dd3-4bbc-a534-3042b05d8ce3)
 ![image](https://github.com/ertucuk/Discord-Bots-V14/assets/68440024/273b9c70-64c3-41c4-9fb3-ce2d9cf69899)
