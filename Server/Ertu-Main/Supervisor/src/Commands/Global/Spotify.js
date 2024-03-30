@@ -1,0 +1,42 @@
+const { ApplicationCommandOptionType,EmbedBuilder,ActivityType,PermissionsBitField } = require("discord.js");
+const ertucuk = require("../../../../../../Global/Settings/System");
+const kanal = require("../../../../../../Global/Settings/AyarName");
+const ertuSpotify  = require("../../../../../../Global/Plugins/Spotify/Spotify")
+
+module.exports = {
+    name: "spotify",
+    description: "Kullanıcının hangi şarkıyı dinlediğini gösterir.",
+    category: "USER",
+    cooldown: 0,
+    command: {
+      enabled: true,
+      aliases: ["spo"],
+      usage: ".spotify", 
+    },
+  
+    onLoad: function (client) { },
+
+    onCommand: async function (client, message, args, ertuembed) {
+
+      let kanallar = kanal.KomutKullanımKanalİsim;
+     if (!message.member.permissions.has(PermissionsBitField.Flags.Administrator) && !kanallar.includes(message.channel.name)) return message.reply({ content: `${kanallar.map(x => `${client.channels.cache.find(chan => chan.name == x)}`)} kanallarında kullanabilirsiniz.`}).then((e) => setTimeout(() => { e.delete(); }, 10000)); 
+
+     const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
+     if (member && member.presence && member.presence.activities && member.presence.activities.some(ertucum => ertucum.name == "Spotify" && ertucum.type == ActivityType.Listening)) {
+      let status = await member.presence.activities.find(ertucum => ertucum.type == ActivityType.Listening);
+      const spotify = await new ertuSpotify()
+    .setOverlayOpacity(0.7)
+    .setAuthor(status.state)
+    .setAlbum(status.assets.largeText)
+    .setImage(`https://i.scdn.co/image/${status.assets.largeImage.slice(8)}`)
+    .setTimestamp(new Date(Date.now()).getTime() - new Date(status.timestamps.start).getTime(), new Date(status.timestamps.end).getTime() - new Date(status.timestamps.start).getTime())
+    .setTitle(status.details)
+    .build();
+     
+      return message.reply({files:[{name:"ertu.png",attachment:spotify}]});
+      }else{ return message.reply({content:`Kullanıcı şarkı dinlemiyor.`});}
+
+
+     },
+
+  };
