@@ -8,6 +8,9 @@
   </p>
 </p>
 
+# ⚠️ NOT!
+Bottaki emoji hatalarını fixlenmiştir. Altyapı sorunsuz çalışmaktadır.
+
 # ✨ Proje Hakkında Bilgi
 Merhaba bu projeye 125 star istemiştim fakat artık pek umrumda olmadığı için paylaşmak istedim. Şimdiden iyi kullanımlar iyi çalmalar hakkım helal olsun. Hatalar olabilir pek takmıyorum luppux supporta gelin ordan destek talebi açın yoksa dmden gelip yardım isteyenlere engeli çakarım uğraşamam.
 
