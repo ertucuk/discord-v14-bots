@@ -8,6 +8,9 @@
   </p>
 </p>
 
+# 📢 ÖNEMLİ DUYURU
+BU PROJEYE 125 STAR GELDIGI HALDE REGİSTER, GUARD BOTUMU PAYLASACAGIM.
+
 # ⚠️ NOT!
 Bottaki emoji hatalarını fixlenmiştir. Altyapı sorunsuz çalışmaktadır.
 
