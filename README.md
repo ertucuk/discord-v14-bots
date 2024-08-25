@@ -1,9 +1,6 @@
   <h3 align="center">- ERTU GELİŞMİŞ V14 BOTS -</h3>
 
   <p align="center">
-    <br />
-    <a href="https://discord.gg/luppux"><strong>Destek Sunucusu »</strong></a>
- <br />
     <a href="https://linktr.ee/ertucuk"><strong>Hesaplarım »</strong></a>
   </p>
 </p>
